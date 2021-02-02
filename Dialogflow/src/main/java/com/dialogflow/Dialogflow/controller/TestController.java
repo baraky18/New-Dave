@@ -21,8 +21,9 @@ public class TestController {
 		Text text = new Text();
 		text.setText(textArr);
 		TestResponse testResponse = new TestResponse();
-		FulfillmentMessages fulfillmentMessages = new FulfillmentMessages();
-		fulfillmentMessages.setText(text);
+		FulfillmentMessages[] fulfillmentMessages = new FulfillmentMessages[1];
+		fulfillmentMessages[0] = new FulfillmentMessages();
+		fulfillmentMessages[0].setText(text);
 		testResponse.setFulfillmentMessages(fulfillmentMessages);
 		return testResponse;
 	}
