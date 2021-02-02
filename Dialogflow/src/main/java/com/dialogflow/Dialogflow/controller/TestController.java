@@ -1,6 +1,7 @@
 package com.dialogflow.Dialogflow.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +16,7 @@ import com.dialogflow.Dialogflow.model.Text;
 public class TestController {
 	
 	@PostMapping("/setintent")
-	public TestResponse setIntent(TestRequest testRequest){
+	public TestResponse setIntent(@RequestBody TestRequest testRequest){
 		String[] textArr = {"yofi"};
 		Text text = new Text();
 		text.setText(textArr);
