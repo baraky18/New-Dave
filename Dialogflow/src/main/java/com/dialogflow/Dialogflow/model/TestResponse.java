@@ -2,14 +2,13 @@ package com.dialogflow.Dialogflow.model;
 
 public class TestResponse {
 
-	private String test;
+	private FulfillmentMessages fulfillmentMessages;
 
-	public String getTest() {
-		return test;
+	public FulfillmentMessages getFulfillmentMessages() {
+		return fulfillmentMessages;
 	}
 
-	public void setTest(String test) {
-		this.test = test;
+	public void setFulfillmentMessages(FulfillmentMessages fulfillmentMessages) {
+		this.fulfillmentMessages = fulfillmentMessages;
 	}
-	
 }
