@@ -65,7 +65,7 @@ public class TestController {
 //		testResponse.setFulfillmentMessages(fulfillmentMessages);
 //		return testResponse;
 		TelephonyPlayAudio telephonyPlayAudio = new TelephonyPlayAudio();
-		telephonyPlayAudio.setAudioUri("gs://new_dave_poc/HiMan.mp3");
+		telephonyPlayAudio.setAudioUri("gs://new_dave_poc/HiMan.wav");
 		return telephonyPlayAudio;
 	}
 }
