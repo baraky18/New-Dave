@@ -4,7 +4,7 @@ public class Card {
 
 	private String title;
 	private String subtitle;
-	private String imageUri;
+	private String audioUri;
 	private Button[] buttons;
 	
 	public String getTitle() {
@@ -19,11 +19,11 @@ public class Card {
 	public void setSubtitle(String subtitle) {
 		this.subtitle = subtitle;
 	}
-	public String getImageUri() {
-		return imageUri;
+	public String getAudioUri() {
+		return audioUri;
 	}
-	public void setImageUri(String imageUri) {
-		this.imageUri = imageUri;
+	public void setAudioUri(String imageUri) {
+		this.audioUri = imageUri;
 	}
 	public Button[] getButtons() {
 		return buttons;
