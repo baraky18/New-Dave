@@ -65,7 +65,7 @@ public class TestController {
 //		testResponse.setFulfillmentMessages(fulfillmentMessages);
 //		return testResponse;
 		TelephonyPlayAudio telephonyPlayAudio = new TelephonyPlayAudio();
-		telephonyPlayAudio.setAudioUri("https://storage.cloud.google.com/new_dave_poc/Hi%20man%2C%20I%20understand%20what%20your%20trying%20to%20say%2C%20but%20who's%20gonna%20believe%20you.mp3");
+		telephonyPlayAudio.setAudioUri("gs://new_dave_poc/Hi man, I understand what your trying to say, but who's gonna believe you.mp3");
 		return telephonyPlayAudio;
 	}
 }
