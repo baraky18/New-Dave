@@ -19,7 +19,7 @@ public class TestController {
 	
 	@PostMapping("/textresponse")
 	public TestResponse textResponse(@RequestBody TestRequest testRequest){
-		String[] textArr = {"yofi"};
+		String[] textArr = {"https://storage.googleapis.com/new_dave_poc/HiMan.mp3"};
 		Text text = new Text();
 		text.setText(textArr);
 		TestResponse testResponse = new TestResponse();
