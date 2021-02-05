@@ -37,7 +37,7 @@ public class TestController {
 //		text.setText(textArr);
 		Card card = new Card();
 		card.setTitle("audioFile");
-		card.setSubtitle("Hi man, I understand what your trying to say, but who's gonna believe you");
+		card.setSubtitle("https://storage.googleapis.com/new_dave_poc/HiMan.mp3");
 		card.setAudioUri("https://storage.googleapis.com/new_dave_poc/HiMan.mp3");
 		TestResponse testResponse = new TestResponse();
 		FulfillmentMessages[] fulfillmentMessages = new FulfillmentMessages[1];
